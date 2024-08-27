@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+* {
+  font-family: 'Roboto';
+  scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1706470251397-09b713f8d486?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  width: 100%;
+  height: 65rem;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  box-shadow: inset 1200px 1200px rgba(0,0,0, 0.5);
+  z-index: 1;
+}
+
+.top-container {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 100%;
+}
+
+.logo {
+  color: #59b159;
+  font-size: 2rem;
+  padding: 0.5rem;
+  padding-right: 1rem;
+  padding-left: 0.75rem;
+  border: 2px solid #447e44;
+  text-decoration: none;
+  font-style: bolded;
+}
+
+.logo-sub {
+  color: white;
+  font-weight: 300;
+  text-wrap: none;
+  padding-left: 0.5rem;
+}
+
+.nav-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-holder a {
+  color: white;
+  padding: 1rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  text-decoration: none;
+  text-wrap: none;
+  text-align: center;
+  border: 2px solid #447e44;
+  background-color:  rgb(201, 229, 174,0.25);
+  transition: 0.15s ease-in-out all;
+  
+}
+
+.nav-holder a:hover {
+
+  background-color:  rgb(189, 255, 128,0.5)
+}
+
+
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.main-text {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main img {
+  height: 100%;
+  width: 30rem;
+  padding-bottom: 2rem;
+}
+
+
+.links {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0.25rem;
+}
+
+.links a {
+  margin: 0.25rem;
+  color: white;
+  padding: 1rem;
+  background-color: rgb(201, 229, 174,0.25);
+  border-color: #4c7b4c;
+}
